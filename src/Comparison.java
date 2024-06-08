@@ -3,14 +3,15 @@ import java.util.LinkedList;
 
 public class Comparison {
     public static void main(String[] args) {
-        final int ELEMENTS_COUNT = 10;
+        
+        final int number_of_elements = 10; // Renamed constant
 
         // ArrayList Operations
         long memoryBeforeArrayList = measureMemory();
         long startArrayListAdd = System.nanoTime();
 
         ArrayList<Integer> a = new ArrayList<>();
-        for (int i = 0; i < ELEMENTS_COUNT; i++) {
+        for (int i = 0; i < number_of_elements; i++) {
             a.add(i);
         }
         long endArrayListAdd = System.nanoTime();
@@ -32,7 +33,7 @@ public class Comparison {
         long startLinkedListAdd = System.nanoTime();
 
         LinkedList<Integer> b = new LinkedList<>();
-        for (int i = 0; i < ELEMENTS_COUNT; i++) {
+        for (int i = 0; i < number_of_elements; i++) {
             b.add(i);
         }
         long endLinkedListAdd = System.nanoTime();
@@ -53,8 +54,8 @@ public class Comparison {
         long memoryBeforeArray = measureMemory();
         long startArrayAdd = System.nanoTime();
 
-        int[] arr = new int[ELEMENTS_COUNT];
-        for (int i = 0; i < ELEMENTS_COUNT; i++) {
+        int[] arr = new int[number_of_elements];
+        for (int i = 0; i < number_of_elements; i++) {
             arr[i] = i;
         }
         long endArrayAdd = System.nanoTime();
@@ -80,5 +81,4 @@ public class Comparison {
         runtime.gc();
         return runtime.maxMemory() - runtime.freeMemory();
     }
-    }
-
+}
