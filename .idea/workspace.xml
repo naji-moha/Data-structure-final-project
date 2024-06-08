@@ -4,29 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05e46213-a1d8-4f81-854f-a2e998d952c7" name="Changes" comment="">
+    <list default="true" id="45739c04-1b41-436d-8ed5-56160a79c6cc" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Structure_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comapringarraylistandlinkedlist.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2hGbnPCq5kGnebG4TpGuUkRKbr8" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fubNqM8FD4V5Ep2F9ktJqMUVSN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,50 +39,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BackgroundImageExample.executor": "Run",
+    "Application.Comaprison.executor": "Run",
+    "Application.Comparison.executor": "Run",
+    "Application.ListComparison.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Setsandmaps.executor": "Run",
+    "Application.TaskManager.executor": "Run",
+    "Application.ToDoList.executor": "Run",
+    "Application.Todo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Najma's java project/comapringarraylistandlinkedlist/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Najma's java project/Data_Structure_Project/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "onboarding.tips.debug.path": "C:/Najma's java project/comapringarraylistandlinkedlist/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Najma's java project\Data_Structure_Project\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Najma's java project\comapringarraylistandlinkedlist\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TaskManager" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TaskManager" />
+      <module name="comapringarraylistandlinkedlist" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="05e46213-a1d8-4f81-854f-a2e998d952c7" name="Changes" comment="" />
-      <created>1717223532367</created>
+      <changelist id="45739c04-1b41-436d-8ed5-56160a79c6cc" name="Changes" comment="" />
+      <created>1714653876267</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1717223532367</updated>
-      <workItem from="1717223533443" duration="15378000" />
+      <updated>1714653876267</updated>
+      <workItem from="1714653877856" duration="22840000" />
+      <workItem from="1715688647974" duration="43292000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
