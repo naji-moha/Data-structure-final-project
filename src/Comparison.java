@@ -4,9 +4,9 @@ import java.util.LinkedList;
 public class Comparison {
     public static void main(String[] args) {
         
-        final int number_of_elements = 10; // Renamed constant
+        final int number_of_elements = 100;
 
-        // ArrayList Operations
+        // ArrayList 
         long memoryBeforeArrayList = measureMemory();
         long startArrayListAdd = System.nanoTime();
 
@@ -28,7 +28,7 @@ public class Comparison {
         System.out.println("  Memory used: " + memoryUsedByArrayList + " bytes");
         System.out.println("  Removal time: " + (endRemoveArrayList - startRemoveArrayList) + " nanoseconds");
 
-        // LinkedList Operations
+        // LinkedList 
         long memoryBeforeLinkedList = measureMemory();
         long startLinkedListAdd = System.nanoTime();
 
@@ -50,7 +50,7 @@ public class Comparison {
         System.out.println("  Memory used: " + memoryUsedByLinkedList + " bytes");
         System.out.println("  Removal time: " + (endRemoveLinkedList - startRemoveLinkedList) + " nanoseconds");
 
-        // Array Operations
+        // Array 
         long memoryBeforeArray = measureMemory();
         long startArrayAdd = System.nanoTime();
 
@@ -75,7 +75,7 @@ public class Comparison {
         System.out.println("  Removal time: " + (endRemoveArray - startRemoveArray) + " nanoseconds");
     }
 
-    // Method to measure memory usage
+    
     public static long measureMemory() {
         Runtime runtime = Runtime.getRuntime();
         runtime.gc();
