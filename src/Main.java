@@ -26,7 +26,7 @@ public class Main {
         frame.setLocationRelativeTo(null);
 
         mainPanel = new JPanel(new BorderLayout());
-        mainPanel.setBackground(Color.PINK); // Set background color to pink
+        mainPanel.setBackground(Color.PINK); 
         frame.setContentPane(mainPanel);
 
         frame.setVisible(true);
@@ -54,7 +54,7 @@ public class Main {
 
         tasks = new ArrayList<>();
 
-        // Panel for input fields
+        
         JPanel inputPanel = new JPanel(new GridLayout(2, 2));
         inputPanel.setBackground(Color.PINK);
         inputPanel.add(new JLabel("Title:"));
@@ -98,7 +98,7 @@ public class Main {
                     Title.setText("");
                     DueTime.setText("");
                 } else {
-                    JOptionPane.showMessageDialog(null, "Please enter a title and due time.");
+                    JOptionPane.showMessageDialog(null, "haha enter a title and due time!");
                 }
             } else if (e.getSource() == editButton) {
                 int selectedIndex = taskList.getSelectedIndex();
@@ -111,7 +111,7 @@ public class Main {
                         taskList.repaint();
                     }
                 } else {
-                    JOptionPane.showMessageDialog(null, "Please select a task to edit.");
+                    JOptionPane.showMessageDialog(null, "Select a task to update..");
                 }
             } else if (e.getSource() == deleteButton) {
                 int selectedIndex = taskList.getSelectedIndex();
@@ -119,7 +119,7 @@ public class Main {
                     listModel.remove(selectedIndex);
                     tasks.remove(selectedIndex);
                 } else {
-                    JOptionPane.showMessageDialog(null, "Please select a task to delete.");
+                    JOptionPane.showMessageDialog(null, "Click the task you want to delete!");
                 }
             } else if (e.getSource() == sortButton) {
                 sortTasks();
